@@ -4,25 +4,25 @@
 
 # Code Explanation: 
 
-Importing Tkinter: 
+# Importing Tkinter: 
 The code starts by importing the Tk class and other necessary components from the tkinter module.
 
-GUI Setup: 
+# GUI Setup: 
 The code creates a window with a specific size, title, and heading label using the Label and geometry methods.
 
-Website Input: 
+# Website Input: 
 A label and a Text widget are provided for the user to enter website addresses to block or unblock.
 
-Blocking Function (Blocker): 
+# Blocking Function (Blocker): 
 The Blocker function is responsible for blocking the entered websites. It reads the current content of the hosts file, checks if the websites are already blocked, and writes the IP address and website to the hosts file if they are not already present. Appropriate messages are displayed using Label widgets to inform the user if the website is already blocked or has been successfully blocked.
 
-Unblocking Function (Unblock): 
+# Unblocking Function (Unblock): 
 The Unblock function is responsible for unblocking the entered websites. It reads the current content of the hosts file, removes the blocked websites, and writes the updated content back to the file. Appropriate messages are displayed to inform the user if the website is already unblocked or has been successfully unblocked.
 
-Block and Unblock Buttons: 
+# Block and Unblock Buttons: 
 Two buttons, "Block" and "Unblock," are provided to trigger the respective actions when clicked. They are linked to the Blocker and Unblock functions, respectively.
 
-mainloop():
+# mainloop():
 The mainloop() method is called to run the Tkinter event loop, which keeps the GUI responsive and allows the user to interact with it.
 
 Please note that modifying the hosts file requires administrative privileges on most systems, 
