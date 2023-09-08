@@ -1,4 +1,4 @@
-from tkinter import *
+#from tkinter import *
 window = Tk()
 window.geometry('650x400')
 window.minsize(650, 400)
